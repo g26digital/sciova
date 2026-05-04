@@ -1,12 +1,19 @@
-# sciova
-WordPress plugin for monitoring Core Web Vitals trends using real Chrome UX Report data
+# Sciova
+WordPress plugin for monitoring Core Web Vitals trends using real Chrome UX Report (CrUX) field data and PageSpeed Insights lab diagnostics.
 
-== Source Code ==
+# Source Code
+All JavaScript (assets/app/) and PHP source files are unminified and human-readable. No build step or compilation is used for the plugin's own code.
 
-The complete source code for this plugin is maintained in a public GitHub repository:
-https://github.com/g26digital/sciova
+# Third-Party Libraries
+uPlot v1.6.31 by Leon Sorokin — MIT License
+Source: https://github.com/leeoniya/uPlot/releases/tag/1.6.31
+Bundled as: assets/uplot.min.js
 
-All JavaScript and CSS files in this plugin are unminified and human-readable. The plugin does not use any build tools or compilation steps.
+Space Grotesk by Florian Karsten — SIL Open Font License 1.1
+Source: https://github.com/floriankarsten/space-grotesk
 
-Third-party library source:
-- uPlot v1.6.31: https://github.com/leeoniya/uPlot/releases/tag/1.6.31
+Plus Jakarta Sans by Tokotype — SIL Open Font License 1.1
+Source: https://github.com/tokotype/PlusJakartaSans
+
+# License
+GPL v2 or later — see LICENSE
