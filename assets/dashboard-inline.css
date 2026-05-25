@@ -1,0 +1,21 @@
+#g26-loading-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(255,255,255,0.8);
+    z-index: 99999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-family: 'Be Vietnam Pro','Open Sans',sans-serif;
+}
+#g26-spinner {
+    width: 36px;
+    height: 36px;
+    border: 3px solid #e0e0e0;
+    border-top-color: #ff3b30;
+    border-radius: 50%;
+    animation: g26spin .7s linear infinite;
+}
+@keyframes g26spin { to { transform: rotate(360deg); } }

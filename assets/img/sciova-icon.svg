@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="a3_1" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FF3B30"></stop>
+            <stop offset="100%" stop-color="#B52A24"></stop>
+          </linearGradient>
+          <linearGradient id="a3_2" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FF3B30"></stop>
+            <stop offset="100%" stop-color="#B52A24"></stop>
+          </linearGradient>
+        </defs>
+        <!-- Bar 1: medium, bottom anchored, outer left -->
+        <rect x="0" y="80" width="22" height="60" rx="2.5" fill="url(#a3_1)" opacity="0.68"></rect>
+        <!-- Bar 2: spine, full height -->
+        <rect x="32" y="0" width="22" height="140" rx="2.5" fill="url(#a3_1)"></rect>
+        <!-- Bar 3: floating — gap of 8px above, not bottom anchored -->
+        <rect x="64" y="20" width="22" height="70" rx="2.5" fill="url(#a3_2)" opacity="0.82"></rect>
+</svg>
